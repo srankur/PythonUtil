@@ -95,7 +95,7 @@ def main():
     listener.start()
     # Ankur Added
     #listener.join()
-
+'''
     workers = []
     for i in range(2):
         worker = multiprocessing.Process(target=worker_process,
@@ -104,7 +104,7 @@ def main():
         worker.start()
     for w in workers:
         w.join()
-
+'''
     #queue.put_nowait(None)
     #listener.join()
 
